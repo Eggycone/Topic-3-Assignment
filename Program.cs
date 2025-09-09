@@ -10,7 +10,7 @@ namespace Topic_3_Assignment
         {
             // Constants
             const double Pi = float.Pi;
-            const double sideA = 1;
+            const double sideA = 3;
             const double sideB = 8;
             // Ints
             int graduationYear;
@@ -35,9 +35,10 @@ namespace Topic_3_Assignment
             // Pythagorean Theorum
             hypotenuseLength = ((sideA * sideA) + (sideB * sideB));
             hypotenuseLength = double.Sqrt(hypotenuseLength);
-            
+
             // Writing The Variables
             // Part 1
+            Console.WriteLine("Part 1");
             Console.WriteLine($"This is room #{roomNumber}");
             Console.WriteLine($"The price is ${price}");
             Console.WriteLine($"This class is {className}");
