@@ -32,10 +32,12 @@ namespace Topic_3_Assignment
             myName = "Jack Moscrop";
             graduationYear = 2027;
             // Area of a circle
-            circleArea = (Pi * (circleRadius * circleRadius));
+            // 78.54
+            circleArea = (Pi * (double.Pow(circleRadius, 2)));
             // Pythagorean Theorum
-            hypotenuseLength = ((sideA * sideA) + (sideB * sideB));
+            hypotenuseLength = ((double.Pow(sideA, 2)) + (double.Pow(sideB, 2)));
             hypotenuseLength = double.Sqrt(hypotenuseLength);
+            
 
             // Writing The Variables
             // Part 1
